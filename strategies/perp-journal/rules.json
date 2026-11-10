@@ -1,0 +1,14 @@
+{
+  "market": "BTC-PERP",
+  "side": "long",
+  "entry": { "type": "manual", "timeframe": "10s", "lookback": 20 },
+  "sizing": { "riskPctPerTrade": 2, "maxLeverage": 2, "maxPositionUsd": 50 },
+  "exits": { "stopLossPct": 0.3, "takeProfitPct": 0.3 },
+  "limits": {
+    "maxOpenPositions": 1,
+    "cooldownMinutes": 5,
+    "maxSpreadBps": 5,
+    "maxDailyLossPct": 5,
+    "maxDataAgeSec": 60
+  }
+}
